@@ -1,0 +1,39 @@
+.header__navBar {
+  background: #b2c4ce;
+}
+
+.header__navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__navLink {
+  margin: 15px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+}
+
+.header__navLink > a {
+  text-decoration: none;
+  color: white;
+}
+
+.Header__logoBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__siteTitle {
+  color: #b2c4ce;
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+}
