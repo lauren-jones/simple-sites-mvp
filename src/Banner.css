@@ -1,0 +1,48 @@
+.banner {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+}
+
+.banner__underline {
+  width: 30px;
+  border-top: 1px solid white;
+  margin-top: 30px;
+}
+
+.banner__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.banner__textBox {
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.banner__title {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: white;
+  font-weight: 600;
+}
+
+.banner__tagline {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  max-width: 600px;
+  font-size: 3rem;
+  color: white;
+  font-weight: 400;
+}
